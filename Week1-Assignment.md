@@ -1,3 +1,48 @@
+
+# 📚 MongoDB Fundamentals – Student Implementation
+
+This repo contains my solution to Week 1 of the PLP Data Layer track. It covers MongoDB setup, CRUD operations, advanced queries, aggregation, and indexing using Node.js.
+
+---
+
+## 🏗️ My Setup
+
+- MongoDB: Local instance on `mongodb://localhost:27017`
+- Database: `plp_bookstore`
+- Collection: `books`
+- Scripting Language: Node.js
+- Insert Script: [`insert_books.js`](./insert_books.js)
+- Queries File: [`queries.js`](./queries.js)
+- Mongodb Compass screenshot: [`mongdbscreenshot.png`](./mongdbscreenshot.png)
+
+---
+
+## 🛠️ How to Run
+
+1. Clone this repo:
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-name>
+   ```
+
+2. Install Node.js dependencies (if needed):
+   ```bash
+   npm init -y
+   npm install mongodb
+   ```
+
+3. Insert sample data:
+   ```bash
+   node insert_books.js
+   ```
+
+4. View or run MongoDB queries from:
+   - [`queries.js`](./queries.js)
+   - Or use MongoDB Compass / mongosh directly
+
+---
+
+# 📋 Original Assignment Brief
 # 🗄️ Week 1: MongoDB – Data Layer Fundamentals and Advanced Techniques
 
 ## 🚀 Objective
