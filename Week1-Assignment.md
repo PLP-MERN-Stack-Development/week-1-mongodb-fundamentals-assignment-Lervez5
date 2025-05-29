@@ -20,23 +20,23 @@ This repo contains my solution to Week 1 of the PLP Data Layer track. It covers 
 ## 🛠️ How to Run
 
 1. Clone this repo:
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-name>
-   ```
+```bash
+   git clone https://github.com/PLP-MERN-Stack-Development/week-1-mongodb-fundamentals-assignment-Lervez5.git
+   cd week-1-mongodb-fundamentals-assignment-Lervez5
+```
 
-2. Install Node.js dependencies (if needed):
+3. Install Node.js dependencies (if needed):
    ```bash
    npm init -y
    npm install mongodb
    ```
 
-3. Insert sample data:
+4. Insert sample data:
    ```bash
    node insert_books.js
    ```
 
-4. View or run MongoDB queries from:
+5. View or run MongoDB queries from:
    - [`queries.js`](./queries.js)
    - Or use MongoDB Compass / mongosh directly
 
